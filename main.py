@@ -248,5 +248,5 @@ class KpParser:
         return resultList
 
 parser = KpParser()
-data = parser.getParsedData(50, 42)
-writeDictToCsv(data, 'dump')
+data = parser.getParsedData(5, 0)
+writeDictToCsv(data, './dumps/csv-dump')
